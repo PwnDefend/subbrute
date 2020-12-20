@@ -9,4 +9,8 @@ Use with a multi-threaded DNS brute force tool e.g. AIODNSBRUTE
 Install aiodnsbrute
 unzip the wordlist
 
+git clone https://github.com/blark/aiodnsbrute.git
+cd aiodnsbrute
+sudo python3 setup.py install
+
 aiodnsbrute -w sorted.txt --resolver-file resolvers.txt --outfile dnsenum.txt domain.local
