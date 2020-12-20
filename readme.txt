@@ -1,13 +1,13 @@
-DNS Brute Force for domain enumeration
+#DNS Brute Force for domain enumeration
 #Single Domain Model
 
 #wordlist is created from a range of sources, uniques and sorted - it contains some junk so you might want to clean it up. Also it's english langauge focused.
 
 
-Use with a multi-threaded DNS brute force tool e.g. AIODNSBRUTE
+#Use with a multi-threaded DNS brute force tool e.g. AIODNSBRUTE
 
-Install aiodnsbrute
-unzip the wordlist
+#Install aiodnsbrute
+#unzip the wordlist
 
 git clone https://github.com/blark/aiodnsbrute.git
 cd aiodnsbrute
