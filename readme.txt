@@ -17,4 +17,4 @@ git clone https://github.com/blark/aiodnsbrute.git
 cd aiodnsbrute
 sudo python3 setup.py install
 cd ..
-aiodnsbrute -w sorted.txt --resolver-file resolvers.txt --outfile dnsenum.txt domain.local
+aiodnsbrute -w sorted.txt --resolver-file resolvers.txt -t 4 --outfile dnsenum.txt domain.local
