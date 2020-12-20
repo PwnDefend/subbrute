@@ -10,7 +10,7 @@
 #unzip the wordlist
 git clone https://github.com/PwnDefend/subbrute.git
 cd subbrute
-sudo apt install unzup -y
+sudo apt install unzip -y
 unzip sorted.zip
 
 git clone https://github.com/blark/aiodnsbrute.git
